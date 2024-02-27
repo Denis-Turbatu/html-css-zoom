@@ -6,6 +6,7 @@
     --green-color: #4ac800;
     --red-color: #ff2532;
     --white-color: #ffffff;
+    --grey-color: #808080;
 }
 
 /* RESET */
@@ -127,9 +128,18 @@ ul{
 }
 
 .base-settings, .end-meeting{
-    width: 15%;
+    width: 8%;
+}
+
+.end-meeting{
+    background-color: var(--grey-color);
 }
 
 .advance-settings{
     flex-grow: 1;
+}
+
+.icon-bar ul li{
+    text-align: center;
+    margin: 5px;
 }
